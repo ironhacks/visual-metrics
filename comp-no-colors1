@@ -1,0 +1,12 @@
+node compare Unal-0-Phase-1 Unal-0-Phase-2 --no-colors
+node compare Unal-0-Phase-2 Unal-0-Phase-3 --no-colors
+node compare Unal-0-Phase-3 Unal-0-Phase-4 --no-colors
+node compare Unal-0-Phase-4 Unal-0-Phase-5 --no-colors
+node compare Unal-1-Phase-1 Unal-1-Phase-2 --no-colors
+node compare Unal-1-Phase-2 Unal-1-Phase-3 --no-colors
+node compare Unal-1-Phase-3 Unal-1-Phase-4 --no-colors
+node compare Unal-1-Phase-4 Unal-1-Phase-5 --no-colors
+node compare Unal-2-Phase-1 Unal-2-Phase-2 --no-colors
+node compare Unal-2-Phase-2 Unal-2-Phase-3 --no-colors
+node compare Unal-2-Phase-3 Unal-2-Phase-4 --no-colors
+node compare Unal-2-Phase-4 Unal-2-Phase-5 --no-colors

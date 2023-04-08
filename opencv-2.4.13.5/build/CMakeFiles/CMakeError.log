@@ -1,0 +1,213 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b2aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b2aa.dir/build.make CMakeFiles/cmTC_8b2aa.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b2aa.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_8b2aa.dir/src.cxx.o -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_8b2aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2aa.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_8b2aa.dir/src.cxx.o  -o cmTC_8b2aa 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4ba4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4ba4.dir/build.make CMakeFiles/cmTC_c4ba4.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4ba4.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_c4ba4.dir/src.cxx.o -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_c4ba4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4ba4.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_c4ba4.dir/src.cxx.o  -o cmTC_c4ba4 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85821/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85821.dir/build.make CMakeFiles/cmTC_85821.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85821.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_85821.dir/src.c.o   -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_85821
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85821.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_85821.dir/src.c.o  -o cmTC_85821 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26675/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26675.dir/build.make CMakeFiles/cmTC_26675.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26675.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_26675.dir/src.c.o   -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_26675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26675.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_26675.dir/src.c.o  -o cmTC_26675 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c284/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c284.dir/build.make CMakeFiles/cmTC_1c284.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c284.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_1c284.dir/src.cxx.o -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_1c284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c284.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_1c284.dir/src.cxx.o  -o cmTC_1c284 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b16fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b16fe.dir/build.make CMakeFiles/cmTC_b16fe.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b16fe.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_b16fe.dir/src.c.o   -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_b16fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16fe.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_b16fe.dir/src.c.o  -o cmTC_b16fe 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5d6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5d6d.dir/build.make CMakeFiles/cmTC_b5d6d.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5d6d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -Wno-array-bounds -Wno-aggressive-loop-optimizations -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b5d6d.dir/CheckIncludeFile.c.o   -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b5d6d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5d6d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b5d6d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5d6d/fast' failed
+make: *** [cmTC_b5d6d/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39bcf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39bcf.dir/build.make CMakeFiles/cmTC_39bcf.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39bcf.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -Wno-array-bounds -Wno-aggressive-loop-optimizations -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG   -o CMakeFiles/cmTC_39bcf.dir/CheckIncludeFile.c.o   -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_39bcf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_39bcf.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_39bcf.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39bcf/fast' failed
+make: *** [cmTC_39bcf/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a94bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a94bf.dir/build.make CMakeFiles/cmTC_a94bf.dir/build
+make[1]: Entering directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a94bf.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-array-bounds -Wno-aggressive-loop-optimizations -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG   -Wno-unused-private-field -o CMakeFiles/cmTC_a94bf.dir/src.cxx.o -c /home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_a94bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a94bf.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-array-bounds -Wno-aggressive-loop-optimizations -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_a94bf.dir/src.cxx.o  -o cmTC_a94bf 
+make[1]: Leaving directory '/home/ionicabizau/Documents/vs-ssim/opencv-2.4.13.5/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
