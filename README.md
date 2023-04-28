@@ -17,9 +17,6 @@ Open the terminal, by pressing <kbd>Cmd</kbd> + <kbd>Space</kbd>. Then, write `T
 ## Installation
 
 ```sh
-# Clone the repository
-git clone https://github.com/jialincheoh/visual-similarity-ssim.git
-
 # Enter in the downloaded directory
 cd visual-similarity-ssim
 
