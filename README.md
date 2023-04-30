@@ -1,6 +1,7 @@
 # Image Similarity
 
 Get the image similarities between web applications. 
+
 **Link to screenshots of web applications** - https://drive.google.com/drive/folders/113DjOk45QbYAN_D2YlIWN4EDHxMBjgmd?usp=sharing 
 
 ## Notes
